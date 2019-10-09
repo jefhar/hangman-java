@@ -1,10 +1,12 @@
-import org.jetbrains.annotations.NotNull;
+package us.jeffharris.hangman;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
+import org.jetbrains.annotations.NotNull;
+
 
 class HiddenWord {
     private static String secretWord;

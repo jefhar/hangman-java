@@ -1,6 +1,6 @@
-Hangman-Java
+us.jeffharris.hangman.Hangman-Java
 ======
-**Hangman** is the simple find a word game played by children with pencil
+**us.jeffharris.hangman.Hangman** is the simple find a word game played by children with pencil
 and paper the world over. Is it the best? Probably not. Is the the fastest?
 Probably not. However, I built it and it works.
 
@@ -26,7 +26,7 @@ docker run -it jefhar/hangman:java
 * [Contributors](https://github.com/jefhar/hangman-java/graphs/contributors)
 
 ### Third party graphics
-* Hangman gallows artwork taken from [Hangman - Ascii Art](http://ascii.co.uk/art/hangman).
+* us.jeffharris.hangman.Hangman gallows artwork taken from [us.jeffharris.hangman.Hangman - Ascii Art](http://ascii.co.uk/art/hangman).
 
 ## License 
 * MIT License. See [LICENSE](https://github.com/jefhar/hangman-java/blob/master/LICENSE.md) file.

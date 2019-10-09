@@ -1,5 +1,7 @@
+package us.jeffharris.hangman;
+
 /**
- * Gallows artwork from http://ascii.co.uk/art/hangman
+ * us.jeffharris.hangman.Gallows artwork from http://ascii.co.uk/art/hangman
  */
 public class Gallows {
 
@@ -97,5 +99,9 @@ public class Gallows {
 
     boolean isGameOver() {
         return wrongChoices == maximumSteps();
+    }
+
+    public int getWrongChoices() {
+        return wrongChoices;
     }
 }

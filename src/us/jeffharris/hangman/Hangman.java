@@ -1,3 +1,5 @@
+package us.jeffharris.hangman;
+
 import java.util.Scanner;
 
 public class Hangman {
@@ -59,6 +61,8 @@ public class Hangman {
     }
 
     private static void endGame() {
+        System.out.println();
+        System.out.println("You used " + turn + " turns and guessed incorrectly " + Gallows.getWrongChoices() +" times.");
         if (Gallows.isGameOver()) {
             System.out.println("You Lose! The secret word was '" + HiddenWord.getSecretWord() + "'. Please try again soon.");
         } else {
